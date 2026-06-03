@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Arintrecci - Borse Artigianali all'Uncinetto</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, sans-serif;
+}
+
+body{
+    background:#fffafc;
+    color:#444;
+}
+
+header{
+    background:#f7dce5;
+    text-align:center;
+    padding:60px 20px;
+}
+
+header h1{
+    font-size:3rem;
+    color:#8d5c6b;
+}
+
+header p{
+    margin-top:15px;
+    font-size:1.1rem;
+}
+
+.btn{
+    display:inline-block;
+    margin-top:25px;
+    background:#d88ca3;
+    color:white;
+    padding:12px 25px;
+    text-decoration:none;
+    border-radius:30px;
+}
+
+section{
+    padding:60px 10%;
+}
+
+.section-title{
+    text-align:center;
+    margin-bottom:40px;
+    color:#8d5c6b;
+}
+
+.products{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
+}
+
+.card{
+    background:white;
+    border-radius:15px;
+    overflow:hidden;
+    box-shadow:0 3px 10px rgba(0,0,0,0.1);
+}
+
+.card img{
+    width:100%;
+    height:280px;
+    object-fit:cover;
+}
+
+.card-content{
+    padding:20px;
+}
+
+.card h3{
+    margin-bottom:10px;
+}
+
+.price{
+    color:#d88ca3;
+    font-size:1.2rem;
+    font-weight:bold;
+    margin:10px 0;
+}
+
+.whatsapp{
+    display:inline-block;
+    background:#25D366;
+    color:white;
+    text-decoration:none;
+    padding:10px 18px;
+    border-radius:25px;
+}
+
+.about{
+    background:#fdeff4;
+    border-radius:20px;
+    text-align:center;
+}
+
+footer{
+    text-align:center;
+    padding:30px;
+    background:#f7dce5;
+}
+
+footer a{
+    color:#8d5c6b;
+    text-decoration:none;
+    font-weight:bold;
+}
+</style>
+
+</head>
+<body>
+
+<header>
+    <h1>ARINTRECCI</h1>
+    <p>Borse artigianali realizzate all'uncinetto con passione e cura.</p>
+
+    <a class="btn" href="#collezione">
+        Scopri la Collezione
+    </a>
+</header>
+
+<section id="collezione">
+    <h2 class="section-title">Le Nostre Creazioni</h2>
+
+    <div class="products">
+
+        <div class="card">
+            <img src="borsa1.jpg" alt="Borsa Rosa Antico">
+            <div class="card-content">
+                <h3>Borsa Rosa Antico</h3>
+                <p>Elegante e delicata, ideale per ogni occasione.</p>
+                <div class="price">€45</div>
+
+                <a class="whatsapp"
+                href="https://wa.me/393XXXXXXXXX?text=Ciao,%20sono%20interessata%20alla%20Borsa%20Rosa%20Antico">
+                Ordina su WhatsApp
+                </a>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="borsa2.jpg" alt="Tote Naturale">
+            <div class="card-content">
+                <h3>Tote Naturale</h3>
+                <p>Capiente, pratica e completamente fatta a mano.</p>
+                <div class="price">€55</div>
+
+                <a class="whatsapp"
+                href="https://wa.me/393XXXXXXXXX?text=Ciao,%20sono%20interessata%20alla%20Tote%20Naturale">
+                Ordina su WhatsApp
+                </a>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="borsa3.jpg" alt="Mini Bag Primavera">
+            <div class="card-content">
+                <h3>Mini Bag Primavera</h3>
+                <p>Colori tenui e design raffinato.</p>
+                <div class="price">€39</div>
+
+                <a class="whatsapp"
+                href="https://wa.me/393XXXXXXXXX?text=Ciao,%20sono%20interessata%20alla%20Mini%20Bag%20Primavera">
+                Ordina su WhatsApp
+                </a>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<section>
+    <div class="about">
+        <h2 style="padding-top:30px;">Chi Sono</h2>
+
+        <p style="padding:20px 40px 40px;">
+            Benvenuti in Arintrecci.
+            Ogni borsa nasce da un intreccio di fili,
+            creatività e passione per l'artigianato.
+            Ogni pezzo è realizzato a mano e pensato
+            per essere unico, elegante e autentico.
+        </p>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 Arintrecci</p>
+    <p>
+        Contattami su WhatsApp:
+        <a href="https://wa.me/393XXXXXXXXX">
+            Scrivimi
+        </a>
+    </p>
+</footer>
+
+</body>
+</html>
